@@ -1,4 +1,4 @@
-Census Block Assignment
+# Census Block Assignment
 
 The purpose of this project is to create a mapping from each current
 census block to the various higher level geographical entities. This
@@ -18,14 +18,13 @@ Currently the output is a current county-level dictionary file of
 higher level geocodes. The order of the higher level codes is given by
 the initial row of the file with key = 'HEADER'.
 
-Current Requirements:
+## Current Requirements:
 
 1. Python3
 
 2. Modules: dbfread, concurrent.futures,csv,xlrd,zipfile
 
-
-To-dos:
+## To-dos:
 
 1. I am not yet wedded to the output format. Alternatively I could
 output a simple CSV files with a header row.
